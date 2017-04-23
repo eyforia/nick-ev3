@@ -3,7 +3,6 @@ var ev3dev = require('ev3dev-lang');
 
 console.log('fading LEDs from green to red...');
 
-while(true) {
     for (var pct = 0; pct < 100; pct += 1) {
         var brightnessVal = (pct / 100);
         var invertedBrightnessVal = 1 - brightnessVal;
@@ -17,12 +16,11 @@ while(true) {
         {   //Hack to sleep for time
             //    SHOULD NOT BE USED IN PRODUCTION CODE
             var start = new Date().getTime();
-            while (new Date().getTime() < start + 100) {
+            while (new Date().getTime() < start + 50) {
                 ;
             }
         }
     }
-}
 
 console.log('done');
 
