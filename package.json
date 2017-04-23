@@ -1,0 +1,14 @@
+{
+  "name": "nick-ev3",
+  "version": "0.0.1",
+  "description": "nicholas' robot hello",
+  "author": "Nicholas.Karneyenka@gmail.com",
+  "contributors": [{
+    "name": "Andrei Karneyenka",
+    "email": "eyforia@gmail.com"
+  }],
+  "dependencies": {
+    "ev3dev-lang": "*"
+  },
+  "license":"APSL-2.0"
+}
