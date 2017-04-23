@@ -10,5 +10,8 @@
   "dependencies": {
     "ev3dev-lang": "*"
   },
+  "scripts": {
+    "start": "node main.js"
+  },
   "license":"APSL-2.0"
 }
