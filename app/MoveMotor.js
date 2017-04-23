@@ -14,7 +14,7 @@ var moveMotor = function () {
 
     rotateMotor = function (angle) {
         console.log("rotate motor :" + angle);
-        motor.runForDistance(angle, 100, motor.stopActionValues.brake);
+        motor.runForDistance(angle, 500, motor.stopActionValues.brake);
     };
 
     wait = function () {
@@ -25,9 +25,10 @@ var moveMotor = function () {
 
     //now this is where stuff is happening
     checkIfEverythingIsOk();
-    rotateMotor(30);
+    rotateMotor(100);
     wait();
-    rotateMotor(-30);
+    rotateMotor(-100);
+    wait();
 
 };
 
