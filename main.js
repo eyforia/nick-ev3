@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var ev3dev = require('ev3dev-lang');
 
 console.log('fading LEDs from green to red...');
